@@ -12,9 +12,8 @@ const VideoList = (props) => {
             video={video} 
             key={video.etag}
         />
-    );
- 
-    });
+      ); 
+    });   
 
     return (
         <ul className="col-md-4 list-group">
